@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 html{
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 .header{
@@ -44,7 +45,7 @@ html{
 
 .home-right{
     margin-left: 50px;
-    /* position: fixed; */
+    
 
 }
 .home-left h2{
@@ -152,20 +153,21 @@ iframe{
     margin-right: 100px;
     padding-right: 50px;
 }
-.foot{
+.foott{
     background-color: rgb(179, 173, 173, 0.5);
     font-size: 30px;
     justify-content: center;
+    text-align: center;
 }
 
-.foot a{
+.foott a{
     color: black;
 }
-.foot a:hover{
+.foott a:hover{
     color: crimson;
 }
 
-.under-foot{
+.under{
     text-align: center;
     background-color: rgba(95, 94, 94, 0.5);
 }
