@@ -101,7 +101,7 @@ section h3{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .contact h2{
     display: flex;
@@ -112,9 +112,8 @@ section h3{
     text-align: center;
 }
 
-.contact-right{
-    margin-right: 100px;
-  
+.message{
+    margin-left: 15px !important;
 }
 
 .contact-right .right-text h3{
