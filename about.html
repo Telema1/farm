@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>about</title>
+</head>
+<body>
+    <div class="content">
+        <div class="fixed-top head">
+            <nav class="navbar navbar-expand-lg navbar-light bg-success">
+                <a class="navbar-brand header-l m-2" href="#">Far<span>my.</span> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active ">
+                    <a class="nav-link header" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link header" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link header" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link header" href="contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link cart" href="#"><img src="images/icons8-shopping-cart-with-money-32.png" alt=""></a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ABOUT PAGE -->
+        <div class="about" >
+        <h2 class="text-success mt-5">About us</h2>
+        <p class="m-4">Our farm was founded in the year 2020 by our CEO Ms. Telema, It is one of the fastest growing agricultural farming in Nigeria
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Voluptas, illum voluptatum repellendus doloribus sunt quidem dolor iure necessitatibus adipisci labore? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, cupiditate.
+        </p>
+        <p class="mb-4"> Find us &nbsp;<a href="#contact"> here</a></p>
+        <div class="offer">
+            <img src="images/icons8-fruits-and-vegetables-50.png" alt="">
+            
+            <img src="images/icons8-staff-50.png" alt="">
+            
+            <img src="images/icons8-clipboard-list-50.png" alt="">
+            
+        </div>
+        <div class="offer-items">
+            <p class="ml-5 mt-4 text-success pr-2 pl-4">Fresh fruits & vegetables</p>
+            <p class="ml-5 mt-4 text-success pr-4">Friendly staff</p>
+            <p class="mt-4 text-success pl-3">We recommend great nutrition plans</p>
+        </div>
+        </div>
+    </div>
+
+     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="bootstrap/js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $("button#cart-btn").click(function(){
+        alert('successfully added to cart')
+      });
+      $(window).on('load', function(){
+        $(".loader").fadeOut(2000);
+        $(".content").fadeIn(2000);
+
+      })
+    });
+  </script>
+</body>
+</html>
