@@ -71,6 +71,7 @@ section h3{
 .about h2{
     display: flex;
     justify-content: center;
+    margin-top: 150px !important;
 }
 .about p{
     display: flex;
@@ -93,6 +94,7 @@ section h3{
 .product h2{
     display: flex;
     justify-content: center;
+    margin-top: 150px !important;
 }
 
 .contact-content{
@@ -101,7 +103,11 @@ section h3{
     align-items: center;
     justify-content: space-between;
 }
-
+.contact h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px !important;
+}
 .title{
     text-align: center;
 }

@@ -11,7 +11,9 @@
     <title>Document</title>
 </head>
 <body>
-
+    <div class="loader">
+        <div></div>
+      </div>
     <div class="content">
         <div class="fixed-top head">
             <nav class="navbar navbar-expand-lg navbar-light bg-success">
@@ -42,7 +44,7 @@
         </div>
 
               <!-- CONTACT -->
-    <div class="contact m-4" id="contact">
+    <div class="contact m-4" >
         <div class="contact-head">
           <h2 class="text-success title">Let us help!</h2>
         </div>
@@ -126,14 +128,11 @@
 
   <script>
     $(document).ready(function(){
-      $("button#cart-btn").click(function(){
-        alert('successfully added to cart')
-      });
+
       $(window).on('load', function(){
         $(".loader").fadeOut(2000);
         $(".content").fadeIn(2000);
-
-      })
+      });
     });
   </script>
 </body>
