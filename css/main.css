@@ -97,46 +97,25 @@ section h3{
     margin-top: 150px !important;
 }
 
-.contact-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.contact h2{
-    display: flex;
-    justify-content: center;
-    margin-top: 150px !important;
-}
+
+
 .title{
     text-align: center;
+    margin-top: 9rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .message{
     margin-left: 15px !important;
 }
 
-.contact-right .right-text h3{
-    margin-left: 150px;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
 
-}
 
-.contact-left{
-    margin-left: 140px;
-    
-}
-
-.contact-group{
-    height: 100%;
-    width: 100%;
+.right-contact{
+   
     border: 1px solid lightgrey;
     border-radius: 6px;
     outline: none;
-    padding: 15px 50px;
-
-
 }
 
 .contact-group span{
