@@ -105,12 +105,9 @@ section h3{
     margin-bottom: 3rem !important;
 }
 
-.message{
-    margin-left: 15px !important;
+.container span{
+    color: crimson;
 }
-
-
-
 .right-contact{
    
     border: 1px solid lightgrey;
