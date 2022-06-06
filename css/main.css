@@ -100,7 +100,6 @@ section h3{
 
 
 .title{
-    text-align: center;
     margin-top: 9rem !important;
     margin-bottom: 3rem !important;
 }
@@ -109,19 +108,14 @@ section h3{
     color: crimson;
 }
 .right-contact{
-   
     border: 1px solid lightgrey;
     border-radius: 6px;
-    outline: none;
 }
 
 .contact-group span{
     color: crimson;
 }
 
-.column{
-    margin-left: 70px;
-}
 
 .location{
     width: 46px;
@@ -184,3 +178,5 @@ iframe{
         transform: rotate(360deg);
     }
 }
+
+/* @media and screen(max-width:) */
